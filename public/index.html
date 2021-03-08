@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Data Label tool - GBSN Research</title>
+    <style>
+      body {
+        overflow-y: hidden;
+        font-family: "Inter";
+      }
+      .MuiButton-label {
+        text-transform: none;
+      }
+    </style>
+    <script>
+      !(function (a, t) {
+        window.moufette = t
+        var e = a.getElementsByTagName("script"),
+          n = []
+        for (var i in e) {
+          var o = e[i].src
+          o && 0 < o.indexOf("moufette.js") && n.push(e[i])
+        }
+        n[n.length - 1],
+          (window.moufette.init = function (t, o) {
+            !(function (t, e, n) {
+              var i = new Date()
+              i.setTime(i.getTime() + 24 * n * 60 * 60 * 1e3)
+              var o = "expires=" + i.toUTCString()
+              a.cookie = t + "=" + e + ";" + o + ";path=/"
+            })("moufette_token", t, 30, o.api_host),
+              window.addEventListener("DOMContentLoaded", function () {
+                var t, e, n, i
+                ;(t = a.createElement("div")).setAttribute(
+                  "id",
+                  "moufette-widget"
+                ),
+                  a.body.appendChild(t),
+                  (e = o.api_host + "/widget/main.js"),
+                  (i = a.createElement("script")).setAttribute(
+                    "type",
+                    "text/javascript"
+                  ),
+                  i.setAttribute("src", e),
+                  i.readyState
+                    ? (i.onreadystatechange = function () {
+                        ;("complete" != this.readyState &&
+                          "loaded" != this.readyState) ||
+                          n()
+                      })
+                    : (i.onload = n),
+                  (
+                    a.getElementsByTagName("head")[0] || a.documentElement
+                  ).appendChild(i)
+              })
+            var e = window.moufetteConfig || {}
+            ;(e.api_host = o.api_host),
+              (e.token = t),
+              (window.moufetteConfig = e)
+          })
+      })(document, window.moufette || {})
+      moufette.init(
+        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1OTc3NTc4NjF9.y_rSQWY5cINMSBTHSPUhuIkrx6GMTI7fbL3J7wPUqAM",
+        { api_host: "https://moufette.universaldatatool.com" }
+      )
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-130161486-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-130161486-4")
+    </script>
+    <script type="text/javascript">
+      window.preloaded_app_config = {}
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

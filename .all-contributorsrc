@@ -1,0 +1,192 @@
+{
+  "projectName": "universal-data-tool",
+  "projectOwner": "UniversalDataTool",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "seveibar",
+      "name": "Severin Ibarluzea",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1910070?v=4",
+      "profile": "https://twitter.com/seveibar",
+      "contributions": [
+        "code",
+        "doc",
+        "review"
+      ]
+    },
+    {
+      "login": "puskuruk",
+      "name": "Puskuruk",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/22892227?v=4",
+      "profile": "http://puskuruk.github.io",
+      "contributions": [
+        "code",
+        "review"
+      ]
+    },
+    {
+      "login": "CedricJean",
+      "name": "CedricJean",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/63243979?v=4",
+      "profile": "https://github.com/CedricJean",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "beru",
+      "name": "beru",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1131125?v=4",
+      "profile": "http://berupon.hatenablog.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Ownmarc",
+      "name": "Marc",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/24617457?v=4",
+      "profile": "https://github.com/Ownmarc",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "Wafaa-arbash",
+      "name": "Wafaa-arbash",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/59834878?v=4",
+      "profile": "https://github.com/Wafaa-arbash",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "pgrimaud",
+      "name": "Pierre Grimaud",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1866496?v=4",
+      "profile": "https://github.com/pgrimaud",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "sreevardhanreddi",
+      "name": "sreevardhanreddi",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/31174432?v=4",
+      "profile": "https://github.com/sreevardhanreddi",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mrdadah",
+      "name": "Mohammed Eldadah",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11255121?v=4",
+      "profile": "https://github.com/mrdadah",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "x213212",
+      "name": "x213212",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9297254?v=4",
+      "profile": "https://x8795278.blogspot.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "hysios",
+      "name": "hysios ",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/103227?v=4",
+      "profile": "https://github.com/hysios",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "congdv",
+      "name": "Cong Dao",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8192210?v=4",
+      "profile": "https://congdv.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "MrJunato",
+      "name": "Renato Junior",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/47343193?v=4",
+      "profile": "https://www.linkedin.com/in/renato-gonsalves-499317125/",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "rickstaa",
+      "name": "Rick",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/17570430?v=4",
+      "profile": "https://gitlab.com/rickstaa",
+      "contributions": [
+        "translation",
+        "code"
+      ]
+    },
+    {
+      "login": "anaplian",
+      "name": "anaplian",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/18647401?v=4",
+      "profile": "https://github.com/anaplian",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "miguelcarvalho13",
+      "name": "Miguel Carvalho",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6718302?v=4",
+      "profile": "https://www.behance.net/MiguelCarvalho13",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "obrien-k",
+      "name": "Kyle OBrien",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/27719893?v=4",
+      "profile": "https://kyleo.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "hakkiyagiz",
+      "name": "Hakkı Yağız ERDİNÇ",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12295562?v=4",
+      "profile": "https://github.com/hakkiyagiz",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jvdavim",
+      "name": "João Victor Davim",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16657663?v=4",
+      "profile": "https://github.com/jvdavim",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true
+}
